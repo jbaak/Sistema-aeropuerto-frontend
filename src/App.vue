@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <VuelosList />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import VuelosList from './components/VuelosList.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    VuelosList
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
