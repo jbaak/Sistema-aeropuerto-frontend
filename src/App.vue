@@ -1,16 +1,14 @@
 <template>
-  <VuelosList />
+  <nav>
+    <router-link to="/">Home</router-link> |
+    <router-link to="/dashboard">Dashoboard</router-link> |
+    <router-link to="/login">Login</router-link>
+  </nav>
+  <router-view/>
 </template>
 
-<script>
-import VuelosList from './components/VuelosList.vue'
+<script setup>
 
-export default {
-  name: 'App',
-  components: {
-    VuelosList
-  }
-}
 </script>
 
 <style>
